@@ -1,0 +1,61 @@
+{
+	"name": "react-native-internet-popup",
+	"title": "React Native Internet Popup",
+	"version": "1.0.0",
+	"description": "A internet popup library which display bottom bar whether you are connected to internet or not.",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"files": [
+		"README.md",
+		"lib",
+		"android",
+		"ios",
+		"react-native-internet-popup.podspec"
+	],
+	"scripts": {
+		"lint": "tslint 'src/**/*.{ts,tsx}'",
+		"clean": "rm -rf lib",
+		"build": "yarn run clean && tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dilipsuthar97/react-native-internet-popup.git",
+		"baseUrl": "https://github.com/dilipsuthar97/react-native-internet-popup"
+	},
+	"keywords": [
+		"react-native",
+		"internet",
+		"popup",
+		"no-internet",
+		"android"
+	],
+	"author": {
+		"name": "Dilip Suthar",
+		"email": "developer.suthardilip696@gmail.com"
+	},
+	"license": "MIT",
+	"licenseFilename": "LICENSE",
+	"readmeFilename": "README.md",
+	"peerDependencies": {
+		"react": "^16.8.1",
+		"react-native": ">=0.60.0-rc.0 <1.0.x"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.10.5",
+		"@babel/core": "^7.11.1",
+		"@react-native-community/netinfo": "^5.9.5",
+		"@types/react": "^16.9.44",
+		"@types/react-native": "^0.63.4",
+		"prettier": "^2.0.5",
+		"react": "^16.9.0",
+		"react-native": "^0.61.5",
+		"react-native-safe-area-context": "^3.1.1",
+		"react-native-safe-area-view": "^1.1.1",
+		"react-native-typescript-transformer": "^1.2.13",
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-config-standard": "^9.0.0",
+		"tslint-react": "^5.0.0",
+		"typescript": "^3.9.7"
+	}
+}
